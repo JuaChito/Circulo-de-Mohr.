@@ -79,7 +79,7 @@ ax.plot([X[0], X[0]], [0, X[1]], 'k:', linewidth=1)
 ax.text(sigma_max + 2, 2, f'σ_max = {sigma_max:.4f}', fontsize=9)
 ax.text(sigma_min - 30, 2, f'σ_min = {sigma_min:.4f}', fontsize=9)
 ax.text(C[0] - 5, 5, f'σ_prom = {sigma_prom:.4f}', fontsize=9)
-ax.text(C[0] + 10, -R / 2, r'$2θ_p$ = {:.4f}°'.format(theta_s_deg * 2), color='purple', fontsize=10)
+ax.text(C[0] + 10, -R / 2, r'$2θ_p$ = {:.4f}°'.format(theta_s_deg), color='purple', fontsize=10)
 
 colors = ['red', 'blue', 'green']
 for i, pt in enumerate(transformed_points):
